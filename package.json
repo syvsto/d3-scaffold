@@ -1,0 +1,22 @@
+{
+  "name": "d3-scaffold",
+  "version": "1.0.0",
+  "description": "scaffolding to quickly create new d3 projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy d3.js --live",
+    "bundle": "browserify app.js -o ./bundle.js"
+  },
+  "author": "Syver Storm-Furru",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "beefy": "^2.1.8",
+    "browserify": "^16.5.0"
+  },
+  "dependencies": {
+    "d3": "^5.14.2",
+    "d3-jetpack": "^2.0.20"
+  }
+}
